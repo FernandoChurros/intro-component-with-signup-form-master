@@ -1,0 +1,49 @@
+.body {
+    align-items: center;
+    background-color: hsl(0, 100%, 74%);
+    color: hsl(0, 100%, 100%);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    line-height: 1.3;
+}
+
+.container_main {
+    width: 85%;
+}
+
+    /*  CABEÇALHO */
+.header {
+    margin-bottom: 5rem;
+}
+
+.title-header {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+    /* OFFER */
+.offer {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+.offer_accent {
+    font-weight: 600;
+}
+
+    /* FORMULÁRIO */
+.form {
+    background-color: hsl(0, 100%, 100%);
+}
+
+.advert-form {
+    color: hsl(246, 25%, 77%);
+}
+
+.destaque-form {
+    color: hsl(0, 100%, 74%);
+}
