@@ -2,4 +2,34 @@
     .body {
         text-align: center;
     }
+
+    .header {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container_main {
+        display: grid;
+        grid-template: 
+            "header offer" auto
+            "header form" auto
+            / 1fr 1fr;
+        column-gap: 2.5rem;
+    }
+
+    .header {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        grid-area: header;
+    }
+
+    .offer {
+        grid-area: offer;
+    }
+
+    .form {
+        grid-area: form;
+    }
 }
